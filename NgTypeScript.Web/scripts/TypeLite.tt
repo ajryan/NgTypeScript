@@ -1,0 +1,12 @@
+﻿<#@ template debug="false" hostspecific="True" language="C#" #>
+<#@ assembly name="$(SolutionDir)\lib\TypeLite.dll" #>
+<#@ assembly name="$(SolutionDir)\lib\TypeLite.Net4.dll" #>
+<#@ assembly name="$(TargetDir)$(TargetFileName)" #>
+
+<#@ import namespace="TypeLite" #> 
+<#@ import namespace="TypeLite.Net4" #> 
+<#@output extension=".d.ts"#>
+
+<#= TypeScript.Definitions()
+		.For<NgTypeScript.Web.Models.User>()
+ #>

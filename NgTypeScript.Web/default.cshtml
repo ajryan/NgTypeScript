@@ -1,0 +1,31 @@
+﻿@using System.Configuration
+@using System.Web.Optimization
+<!DOCTYPE html>
+<html id="ng-app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>NgTypeScript</title>
+    @Styles.Render("~/bundles/css")
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.min.js"></script>
+    <![endif]-->
+</head>
+<body ng-app="MyApp">
+    <header>
+        <h1><a href="/">NgTypeScript</a></h1>
+        <h2>Baseline Angular-TypeScript template</h2>
+    </header>
+
+    <div ng-view=""></div>
+
+    <script type="text/javascript">
+        @{
+            var apiUrl = ConfigurationManager.AppSettings["apiUrl"];
+        }
+        Globals = { apiUrl: '@apiUrl' };
+    </script>
+    @Scripts.Render("~/bundles/app")
+</body>
+</html>
