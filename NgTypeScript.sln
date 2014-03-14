@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgTypeScript.Web", "NgTypeScript.Web\NgTypeScript.Web.csproj", "{2B486377-5556-4F26-A68A-F9398F885BE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgTypeScript.Template", "NgTypeScript.Template\NgTypeScript.Template.csproj", "{2B486377-5556-4F26-A68A-F9398F885BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgTypeScript.NgHtmlHelper", "NgTypeScript.NgHtmlHelper\NgTypeScript.NgHtmlHelper.csproj", "{28E2DEFF-626F-4786-ABC6-7E2D78FA62D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2B486377-5556-4F26-A68A-F9398F885BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B486377-5556-4F26-A68A-F9398F885BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B486377-5556-4F26-A68A-F9398F885BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E2DEFF-626F-4786-ABC6-7E2D78FA62D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E2DEFF-626F-4786-ABC6-7E2D78FA62D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E2DEFF-626F-4786-ABC6-7E2D78FA62D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E2DEFF-626F-4786-ABC6-7E2D78FA62D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

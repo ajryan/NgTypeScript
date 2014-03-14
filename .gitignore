@@ -79,7 +79,7 @@ publish
 *.Publish.xml
 
 # NuGet Packages Directory
-#packages
+packages
 
 # Windows Azure Build Output
 csx
@@ -121,6 +121,3 @@ $tf
 ######### Xamarin #########
 
 *.userprefs
-
-# nuget packages
-packages/
